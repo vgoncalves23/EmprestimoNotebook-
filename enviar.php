@@ -34,7 +34,7 @@ require './vendor/autoload.php';
             $mail->Host = '';
             $mail->SMTPAuth = true;
             $mail->Username = '';
-            $mail->Password = 'Ti@2021';
+            $mail->Password = '';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
