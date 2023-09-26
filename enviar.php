@@ -31,16 +31,16 @@ require './vendor/autoload.php';
             //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
             $mail->CharSet = 'UTF-8';
             $mail->isSMTP();
-            $mail->Host = 'mail.acoforja.com.br';
+            $mail->Host = '';
             $mail->SMTPAuth = true;
-            $mail->Username = 'informatica@acoforja.com.br';
+            $mail->Username = '';
             $mail->Password = 'Ti@2021';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
-            $mail->setFrom('informatica@acoforja.com.br', 'TI');
+            $mail->setFrom('', 'TI');
             $mail->addAddress($email, '');
-            $mail->addAddress('informatica@acoforja.com.br', '');
+            $mail->addAddress('', '');
        
 			
             $mail->isHTML(true);                                 
