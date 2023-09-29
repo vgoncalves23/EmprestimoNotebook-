@@ -6,6 +6,6 @@ Sistema de Gestão de Notebooks. Funcionamento parecido com uma biblioteca, no q
 <ul>
   <li>Importar o banco de dados "schema.sql"</li>
   <li>Configurar o servidor de email nas paginas "enviar.php" e "enviar2.php"</li>
-  <li>core/controller/Database.php</li>
+  <li>Configurar a tabela e o banco de dados core/controller/Database.php</li>
 </ul>
 
