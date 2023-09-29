@@ -3,6 +3,6 @@ Sistema de Gestão de Notebooks. Funcionamento parecido com uma biblioteca, no q
 
 # Procedimentos Iniciais   
 
-.Importar o banco de dados "schema.sql"
+.Importar o banco de dados "schema.sql"<br>
 .configurar o servidor de e-mails na aba enviar.php e enviar2.php
 
